@@ -1,0 +1,25 @@
+
+/*======HOME PAGE=====*/
+.timeline_post {
+  height: 400px;
+  background-color: rgba(0, 0, 0, .3);
+  color: rgba(0, 0, 0, .3);
+  background-size: 100% 100%;
+  display:none; /*we'll fade these in when they're loaded*/
+}
+
+.timeline_post:hover {
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1);
+}
+.timeline_post_inner {
+  background-color: rgba(0, 0, 0, .8);
+  color: rgba(0, 0, 0, .8);
+  width: 70%;
+  display:block;
+  margin: 0 auto;
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+  height: 300px;
+}
